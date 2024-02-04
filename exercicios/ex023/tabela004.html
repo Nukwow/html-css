@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            border: relative;
+        }
+        caption{
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightgray;
+        }
+
+        th,td{
+            border: 1px solid lightslategray;
+            padding: 10px;
+            
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes </th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+                
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup"> Mulheres</th>
+                <td>Sophia Santos</td>
+                <td>Coraline</td>
+                <td>Meninas Malvadas</td>
+                <td>Divertidamente</td>
+            </tr>
+            <tr>
+                <th>Beatriz Santos</th>
+                <td>Crepusculo</td>
+                <td>Derepente30</td>
+                <td>InterEstelar</td>
+            </tr>
+            <tr>
+                <th>Maria Alves</th>
+                <td>Masarope</td>
+                <td>FugaDasGalinhas</td>
+                <td>EraDoGelo</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+
+                <td>Juliano Prado</td>
+                <td>MeuMalvadoFavorito</td>
+                <td>IvasaoAcasaBranca</td>
+                <td>ComoSeFosseAprimeiraVez</td>
+            </tr>
+            <tr>
+                <th>Jose Lisboa</th>
+                <td>PiratasDoCaribe</td>
+                <td>OresgateDoSoldadoRyan</td>
+                <td>ReiLeao</td>
+            </tr>
+            <tr>
+                <th>Pedro Miguel</th>
+                <td>AnaBelle</td>
+                <td>InvocaçaoDoMal</td>
+                <td>Paranormal</td>
+            </tr>
+
+            
+            
+                  
+
+        </tbody>
+      
+    </table>
+</body>
+</html>
